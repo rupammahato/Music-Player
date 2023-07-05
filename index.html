@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player - Play music anytime</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="—Pngtree—cute red blue musical notes_6244540.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="—Pngtree—cute red blue musical notes_6244540.png" alt="Music Player">Media Player</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="SongList">
+            <h1>My Favourites</h1>
+            <div>
+                <div class="SongItem">
+                    <img src="Despacito.jpg" alt="1">
+                    <span class="SongName">Despacito - Song by Luis Fonsi</span>
+                    <span class="songlistplay"><span class="timestamp">04:41<i id="0" class="fa-solid fa-play-circle fa-2xl ListPlay"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="NightChanges.png" alt="2">
+                    <span class="SongName">   Night Changes - One Direction   </span>
+                    <span class="songlistplay"><span class="timestamp">04:00<i id="1" class="fa-solid fa-play-circle fa-2xl ListPlay"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Perfect.jpg" alt="3">
+                    <span class="SongName">Perfect -  Song By Ed Sheeran</span>
+                    <span class="songlistplay"><span class="timestamp">04:39<i id="2" class="fa-solid fa-play-circle fa-2xl ListPlay"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="Till I Collapse.jpeg" alt="4">
+                    <span class="SongName">Till I Collapse - Song By Eminem</span>
+                    <span class="songlistplay"><span class="timestamp">04:57<i id="3" class="fa-solid fa-play-circle fa-2xl ListPlay"></i></span></span>
+                </div>
+                <div class="SongItem">
+                    <img src="ShapeofYou.jpeg" alt="5">
+                    <span class="SongName">Shape of You - Song By Ed Sheeran</span>
+                    <span class="songlistplay"><span class="timestamp">03:53<i id="4" class="fa-solid fa-play-circle fa-2xl ListPlay"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="ProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward fa-2xl" id="previous"></i>
+            <i class="fa-solid fa-play-circle fa-2xl" id="masterPlay"></i>
+            <i class="fa-solid fa-forward fa-2xl" id="next"></i>
+        </div>
+        <div class="visual">
+            <img src="audio-spectrum-demo.gif" width="100px" alt="" id="visualizer">
+        </div>
+        <div class="songinfo">
+           " Despacito - Song by Luis Fonsi " 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ca08f84a8d.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
